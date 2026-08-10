@@ -1,5 +1,32 @@
 [
 	{
+        "name": "FERAL",
+        "license": "commercial",
+        "url": "https://www.iese.fraunhofer.de/en/department/virtual-engineering/feral.html",
+        "logo": "FERAL.png",
+        "vendor": "Fraunhofer IESE",
+        "vendorURL": "https://www.iese.fraunhofer.de/en.html",
+        "description": "Java-based platform for coupling simulators and simulation models with different models of computation and communication (MOCC), including simulation of CAN, FlexRay, Ethernet, LIN and MOST networks",
+        "features": [],
+        "platforms": [
+            "Linux",
+            "Windows"
+        ],
+        "interfaces": [
+            "library",
+            "CLI"
+        ],
+        "fmiVersions": [
+            "2.0",
+            "3.0"
+        ],
+        "fmuExport": [],
+        "fmuImport": [
+            "CS"
+        ],
+        "layeredStandards": []
+    },
+	{
         "name": "OpenXilEnv",
         "license": "osi",
         "url": "https://projects.eclipse.org/projects/automotive.openxilenv",
